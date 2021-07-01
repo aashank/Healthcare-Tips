@@ -1,0 +1,29 @@
+.btn {
+    width: 15%!important;
+}
+
+/* Media Query */
+
+@media(min-width: 768px) and (max-width:991px) {
+    .btn {
+        width: 30%!important;
+    }
+    .row {
+        margin-top: 60px;
+    }
+}
+
+@media(min-width:480px) and (max-width:767px){
+    .btn {
+        width: 30%!important;
+    }
+    .row {
+        margin-top: 60px;
+    }
+  }
+
+@media(min-width:320px) and (max-width:479px) {
+    .btn {
+        width: 42%!important;
+    }
+}

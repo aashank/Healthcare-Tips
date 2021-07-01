@@ -1,0 +1,22 @@
+<div class="bgImg">
+    <header>
+        <div class="container">
+            <div class="row text-center">
+                <p class="logo "><span>W</span>ellness<span> P</span>rogram</p>
+                <p class="paraFont">A month long educational measurable program for elderly person to create awareness about health risks and how to manage them.</p>
+            </div>
+        </div>
+    </header>
+    <div class="container sectionSetting ">
+        <div class="row">
+            <div class="col-lg-6 mt-5" *ngFor="let detail of cardDetails">
+                <app-card-content [cardTitle]="detail.title" [cardDescription]="detail.desc" [cardImg]="detail.img"></app-card-content>
+            </div>
+        </div>
+        <div class="container btnSetting ">
+            <div class="row mb-3">
+              <app-back-to-home></app-back-to-home>
+            </div>
+          </div>
+    </div>
+</div>

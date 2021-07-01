@@ -1,0 +1,111 @@
+.bgImg{
+  background-image: url('../../assets/img/bg.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 850px!important;
+}
+.sectionSetting {
+  margin-top: -40px;
+}
+
+.noteSetting {
+  margin-top: -50px;
+}
+
+.noteFont {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#showBmiValue {
+  font-size: 1.4rem;
+  color: var(--black);
+}
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1.5rem 0rem;
+  text-transform: capitalize;
+}
+
+header progress {
+  color: var(--black);
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all .2s linear;
+}
+
+header p:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+header .container .logo {
+  font-size: 3rem;
+}
+
+header .container .logo span {
+  color: var(--blue);
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+form h4{
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* Media Queries */
+
+/* @media(max-width:400px) {
+  .noteSetting {
+    margin-top: 10px;
+  }
+} */
+
+ /* Media Query */
+  
+ @media(min-width: 768px) and (max-width:991px) {
+  .bgImg{
+    height: 1200px!important;
+    
+  }
+  .btnSetting{
+    margin-top: 40px;
+  }
+  .noteSetting {
+    margin-top: -150px;
+  }
+}
+
+@media(min-width:480px) and (max-width:767px){
+  .bgImg{
+     height: 1200px!important;
+   }
+   .btnSetting{
+    margin-top: 40px;
+  }
+  .noteSetting {
+    margin-top: 20px;
+  }
+}
+
+@media(min-width:320px) and (max-width:479px){
+ .bgImg{
+    height: 1050px!important;
+  }
+  .noteSetting {
+    margin-top: 10px;
+  }
+  .btnSetting{
+    margin-top: -10px;
+  }
+}
+

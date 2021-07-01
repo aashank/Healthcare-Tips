@@ -1,0 +1,25 @@
+<div class="bgImg">
+  <header>
+    <div class="container">
+      <div class="row text-center">
+        <p class="logo "><span>P</span>ro-<span>D</span>iet<span> T</span>ips</p>
+      </div>
+    </div>
+  </header>
+  <div class="container sectionSetting">
+    <div class="row min-vh-100 align-items-center text-center text-md-left">
+      <div class="col-md-6 pr-md-5">
+        <img src="assets/img/diet.png" width="100%" alt="">
+      </div>
+      <div class="col-md-6 pl-md-5 content mb-5">
+          <app-page-content [accordianTitle]="accordian.title" [accordianDescription]="accordian.desc"
+           *ngFor="let accordian of accordianDetails"></app-page-content>
+      </div>
+    </div>
+    <div class="container btnSetting ">
+      <div class="row mb-3">
+        <app-back-to-home></app-back-to-home>
+      </div>
+    </div>
+  </div>
+</div>
